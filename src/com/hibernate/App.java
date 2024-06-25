@@ -17,7 +17,7 @@ public class App {
 
             Scanner sc = new Scanner(System.in);
             String option;
-
+                System.out.println("Start of the program.");
             do {
                 System.out.println("Select Operations:- ");
                 System.out.println("1. Insert Details");
