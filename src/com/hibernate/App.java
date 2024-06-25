@@ -14,7 +14,7 @@ public class App {
         Configuration con = new Configuration().configure();
         try (SessionFactory sf = con.buildSessionFactory();
              Session session = sf.openSession()) {
-
+                System.out.println("Changes from main branch.");
             Scanner sc = new Scanner(System.in);
             String option;
 
